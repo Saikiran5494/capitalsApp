@@ -1,0 +1,49 @@
+/* Write your CSS here */
+.bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.card-container {
+  padding: 20px;
+  background-color: #f8fafc;
+  border-radius: 10px;
+  width: 100%;
+}
+@media screen and (min-width: 768px) {
+  .card-container {
+    width: 500px;
+  }
+}
+.heading {
+  color: #323f4b;
+  font-size: 20px;
+  font-weight: 700;
+}
+.select-container {
+  display: flex;
+  justify-content: space-between;
+}
+.select {
+  font-weight: 500;
+  border-radius: 10px;
+  outline: none;
+  box-shadow: 10px 10px 6px 1px #cbd2d9;
+}
+.option {
+  font-weight: 600;
+}
+.para-question {
+  font-weight: 500;
+}
+.country {
+  font-weight: 800;
+  font-size: 25px;
+}
+/*Hex:
+Hex: 
+Hex: 
+Hex: */
